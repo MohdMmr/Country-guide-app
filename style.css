@@ -75,3 +75,31 @@ body{
     font-weight: 400;
     color: #ff465a;
 }
+/* Responsive */
+@media(max-width : 767px){
+    .container {
+        background-color: #ffffff;
+        width: 97vw;
+        max-width: 30.5em;
+        padding: 2em 1.5em;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 0.62em;
+        box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+    }
+    .search-wrapper {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        gap: 0.8em;
+    }
+    .search-wrapper input {
+        font-size: 1em;
+        padding: 0 0.62em;
+        border: none;
+        border-bottom: 2px solid #3d64e6;
+        outline: none;
+        color: #222a43;
+    }
+}
